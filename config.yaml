@@ -1,0 +1,9 @@
+Storage:
+  AccessKeyID:
+  AccessKeySecret:
+  DefaultBucket: echome-test
+  Endpoint: oss-cn-hangzhou.aliyuncs.com
+  Path: test/  # oss存储路径
+# * 本地存储路径，监控此文件夹，有新的文件自动上传到oss
+LocalPath: ./app/
+
